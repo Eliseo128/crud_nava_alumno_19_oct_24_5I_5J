@@ -13,7 +13,7 @@ def index_vista(request):
 ```
 de la tabla borramos 2 tr cortar ctrl x  y agregamos un un ciclo for en el primer tr
 - asi queda
-```
+```html
        <!-- Modal  tabla-->
        <table class="table mt-3 table-bordered" >
         <thead>
@@ -39,7 +39,7 @@ de la tabla borramos 2 tr cortar ctrl x  y agregamos un un ciclo for en el prime
       </table>
 ```
 font awesome https://fontawesome.com/ y dentro d td  agregamos href + icono
-```
+```html
        <table class="table mt-3 table-bordered" >
         <thead>
           <tr>
@@ -66,7 +66,7 @@ font awesome https://fontawesome.com/ y dentro d td  agregamos href + icono
       </table>
 ```
 Ahora agregamos boton borrar con otro href
-```
+```html
        <!-- Modal  tabla-->
        <table class="table mt-3 table-bordered" >
         <thead>
