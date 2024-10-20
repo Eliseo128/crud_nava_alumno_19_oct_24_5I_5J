@@ -9,7 +9,7 @@ link https://cdnjs.com/libraries/font-awesome
 - video  https://youtu.be/UsYx0226LwA?si=4MqfSDHpHxJOKFUP
 - en body 
 
-```
+```html
       <div class="container mt-5 p-5 rounded shadow bg-white">
 
 
@@ -17,7 +17,7 @@ link https://cdnjs.com/libraries/font-awesome
 ```
 - el boton
 
-```
+```html
 <div class="container mt-5 p-5 rounded shadow bg-white">
       <div class="">
       <a href="" class="btn btn-primary px-5 btn-sm">Agregar nuevo Alumno</a>
@@ -27,7 +27,7 @@ link https://cdnjs.com/libraries/font-awesome
 ```
 - agregamos div class, form,  input, boton
 
- ```
+ ```html
       <div class="">
       <form action="" method="post">
             <input type="search" name="search" class="form-control" placeholder="buscando ...">
@@ -37,7 +37,7 @@ link https://cdnjs.com/libraries/font-awesome
 ```
 
 - layout
- ```
+ ```html
 <div class="container mt-5 p-5 rounded shadow bg-white">
 
       <div class="d-flex justify-content-between align-items-center">
@@ -56,7 +56,7 @@ link https://cdnjs.com/libraries/font-awesome
 </div>
 ```
 - reacomodando
-```
+```html
 <div >
       <form action="" method="post" class="d-flex">
       <input type="search" name="search" class="form-control" placeholder="buscando ...">
@@ -68,7 +68,7 @@ link https://cdnjs.com/libraries/font-awesome
 
 
 
-```
+```html
       <div class="d-flex justify-content-between align-items-center">
       <a href="" class="btn btn-primary px-4 py-2 btn-sm">Agregar nuevo Alumno</a>
 
@@ -89,7 +89,7 @@ link https://cdnjs.com/libraries/font-awesome
 - https://getbootstrap.com/docs/5.0/components/modal/
 
 Lounch demo modal
-```
+```html
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -115,12 +115,12 @@ Lounch demo modal
 - de bootstrap modal copiamos  data-bs-toggle="modal" data-bs-target="#exampleModal"
 y lo pegamos en a href
 
-```
+```html
  <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary px-4 py-2 btn-sm">Agregar nuevo Alumno</a>
 ```
 - modificamos por agregar Alumno modal
 - 
-```
+```html
   <a href="" data-bs-toggle="modal" data-bs-target="#agregarAlumnoModal" class="btn btn-primary px-4 py-2 btn-sm">Agregar nuevo Alumno</a>
 ```
 remplazamos los puntitos 
@@ -130,7 +130,7 @@ remplazamos los puntitos
       </div>
 ```
 asi queda en modal
-```
+```html
 <!-- Modal -->
 <div class="modal fade" id="agregarAlumnoModal" tabindex="-1" aria-labelledby="agregarAlumnoModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -155,7 +155,7 @@ asi queda en modal
 </div>
 ```
 - agregamos br y copiamos div alumno por su correo
-```
+```html
 <!-- Modal -->
 <div class="modal fade" id="agregarAlumnoModal" tabindex="-1" aria-labelledby="agregarAlumnoModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -187,7 +187,7 @@ asi queda en modal
 cerrar codigo cortar y copiar   ctrl X ,desde class modal-content -->
 y agregar form mas {% csrf_token %}
 se ve de la siguiente manera
-```
+```html
 <!-- Modal -->
 <div class="modal fade" id="agregarAlumnoModal" tabindex="-1" aria-labelledby="agregarAlumnoModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -223,7 +223,7 @@ agregamos los campos requeridos  required  input
 - + en el segundo boton agregar alumno colocar submit + name="agregar"
 
 
-```
+```html
 <!-- Modal -->
 <div class="modal fade" id="agregarAlumnoModal" tabindex="-1" aria-labelledby="agregarAlumnoModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -256,7 +256,7 @@ agregamos los campos requeridos  required  input
 </div>
 ```
 Agregar tabla desde modal bootstrap
-```
+```html
        <table class="table mt-3 table-bordered" >
         <thead>
           <tr>
