@@ -1,7 +1,7 @@
 en views agregamos el modelo alumno_T + codigo
 
 
-```
+```python
 from django.shortcuts import render
 from .models import Alumno_T
 
